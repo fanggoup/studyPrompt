@@ -869,7 +869,7 @@ orderbot:自动化收集用户提示和助手响应
 import openai
 
 #api 密钥：openAI网站获取
-openai.api_key = "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"
+openai.api_key = "xxx"
 
 def get_completion(prompt,model = "gpt-3.5-turbo"):
     messages = [{"role":"user","content":prompt}]
